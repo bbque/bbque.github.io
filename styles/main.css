@@ -1,8 +1,6 @@
-
 body {
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     box-sizing: border-box;
     width:calc(100% - 10em);
     height:calc(100% - 10em);
@@ -15,13 +13,7 @@ body {
 
 .gif-container {
   background: url(../images/smoker.gif)center no-repeat;
-  background-size: auto auto;
+  background-size: cover;
   box-sizing: border-box;
-}
-
-.logo {
-  box-sizing: border-box;
-  width:calc(100% - 3em);
-  height:calc(100% - 3em);
-  margin: 5em auto;
+  position: 0 4em;
 }
