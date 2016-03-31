@@ -3,7 +3,7 @@
     src: url(EVERAFTE.TTF);
 }
 
-.header {
+.main-container {
   background-image: url(../images/smoker.gif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,9 +25,4 @@
   margin: auto;
   width: calc(50% + 2em);
   height: calc(50% + 2em);
-}
-
-.main-container{
-  font-family: EverAfter serif;
-  text-align: center;
 }
