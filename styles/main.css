@@ -1,11 +1,4 @@
-body {
-    position: relative;
-    margin: 4em auto;
-    box-sizing: border-box;
-    background-color: red;
-    width:calc(100% - 10em);
-    height:calc(100% - 10em);
-}
+
 
 @font-face {
     font-family: EverAfter;
@@ -13,6 +6,12 @@ body {
 }
 
 .gif-container {
+  position: relative;
+  margin: 4em auto;
+  box-sizing: border-box;
+  width:calc(100% - 10em);
+  height:calc(100% - 10em);
+
   background: url(../images/smoker.gif)center no-repeat;
   background-size: cover;
 }
