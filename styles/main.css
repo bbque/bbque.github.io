@@ -2,6 +2,7 @@ body {
     position: relative;
     margin: 4em auto;
     box-sizing: border-box;
+    background-color: red;
     width:calc(100% - 10em);
     height:calc(100% - 10em);
 }
