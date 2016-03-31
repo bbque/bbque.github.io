@@ -1,20 +1,27 @@
 
-
 body {
-    margin:0 auto;
-    width: calc(100% - 80px);
-    height: calc(100% - 80px);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width:calc(100% - 10em);
+    height:calc(100% - 10em);
+}
+
+@font-face {
+    font-family: EverAfter;
+    src: url(EVERAFTE.TTF);
 }
 
 .gif-container {
-  background: url(../images/smoker.gif)center;
-  background-size: cover;
+  background: url(../images/smoker.gif)center no-repeat;
+  background-size: auto auto;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
-.gif-container img {
-  display: block;
-      margin-left: auto;
-      margin-right: auto
+.logo {
+  box-sizing: border-box;
+  width:calc(100% - 3em);
+  height:calc(100% - 3em);
+  margin: 5em auto;
 }
