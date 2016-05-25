@@ -14,6 +14,25 @@ h2 {
   font-size: 3em;
 }
 
+.link {
+  color: #333333;
+  color: #FF0000;
+  text-decoration: none; }
+
+
+.menu__link {
+  color: #333333;
+  position: absolute;
+  top: .5em;
+  left: 2em;
+  text-decoration: none; }
+  .menu__link:hover {
+    color: #FF0000; }
+
+.menu__container{
+  padding: 7em 0 1em;
+}
+
 .main__container {
   max-width: 70rem;
   margin: auto;
