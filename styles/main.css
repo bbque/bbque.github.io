@@ -17,7 +17,7 @@ h2 {
 .main__container {
   max-width: 70rem;
   margin: auto;
-  padding: 1rem 1rem;
+  padding: 0 1rem;
   text-align: center;
 }
 
