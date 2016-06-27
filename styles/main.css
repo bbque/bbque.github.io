@@ -16,8 +16,7 @@ h2 {
 
 .link {
   color: #333333;
-  color: #FF0000;
-  text-decoration: none; }
+  color: #FF0000; }
 
 
 .menu__link {
@@ -25,7 +24,7 @@ h2 {
   position: absolute;
   top: .5em;
   left: 2em;
-  text-decoration: none; }
+}
   .menu__link:hover {
     color: #FF0000; }
 
